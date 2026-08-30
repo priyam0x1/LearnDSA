@@ -4,7 +4,7 @@ using namespace std;
 void ch(char ch);
 int main()
 {
-    ch('a');
+    ch('K');
     return 0;
 }
 
