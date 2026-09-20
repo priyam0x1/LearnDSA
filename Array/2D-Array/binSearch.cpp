@@ -10,7 +10,7 @@ int main()
         {5, 6, 7, 8},
         {9, 10, 11, 12},
         {13, 14, 15, 16}};
-    int n = 4, m = 4, key = 16;
+    int n = 4, m = 4, key = 160;
     pair<int, int> result = binSearch(matrix, n, m, key);
     cout << "Row : " << result.first + 1 << " \n";
     cout << "Index : " << result.second;
@@ -39,5 +39,5 @@ pair<int, int> binSearch(int mat[4][4], int n, int m, int key)
             }
         }
     }
-    return {-1, 0};
+    return {-2, 0};
 }
