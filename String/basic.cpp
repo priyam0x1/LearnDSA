@@ -8,9 +8,12 @@ int main()
     // cout << work << "\n";
     // cout << sizeof(work) << "\n";
     // cout << strlen(work) << "\n";
-    char work[30];
-    cin >> work;
+    // char work[30];
+    // cin >> work;
 
-    cout << "Your word is : " << work;
+    // cout << "Your word is : " << work;
+    char sentence[50];
+    cin.getline(sentence, 50, '.');
+    cout << "Your sentence is : " << sentence << "\n";
     return 0;
 }
