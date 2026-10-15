@@ -16,8 +16,5 @@ int tilingProblem(int n)
         return 1;
     }
 
-    int ans1 = tilingProblem(n - 1); // Vertical Case
-    int ans2 = tilingProblem(n - 2); // Horizontal Case
-
-    return ans1 + ans2;
+    return tilingProblem(n - 1) + tilingProblem(n - 1);
 }
